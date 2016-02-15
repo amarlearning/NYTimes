@@ -3,7 +3,6 @@ var xmlhttp = new XMLHttpRequest(),
     xmlhttp.onreadystatechange = function(){
         if(xmlhttp.readyState === 4 && xmlhttp.status === 200) {
           json = JSON.parse(xmlhttp.responseText);
-          console.log(json);
           var i = 1,j=0;
           while(json.results)
           {
