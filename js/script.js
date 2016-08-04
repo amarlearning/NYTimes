@@ -6,7 +6,7 @@ var xmlhttp = new XMLHttpRequest(),
         if(xmlhttp.readyState === 4 && xmlhttp.status === 200) {
           
           json = JSON.parse(xmlhttp.responseText);
-          var i = 1,j=0;
+          var i = 1;
           
           
           while(json.results) {
